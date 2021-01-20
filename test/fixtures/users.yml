@@ -1,0 +1,14 @@
+user_user:
+  name: Normal User
+  role: role_user
+  email: user@user.com
+ 
+user_editor:
+  name: Editor User
+  role: role_editor
+  email: editor@editor.com
+ 
+user_admin:
+  name: Admin User
+  role: role_admin
+  email: admin@admin.com

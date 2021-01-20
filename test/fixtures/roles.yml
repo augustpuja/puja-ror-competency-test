@@ -1,0 +1,11 @@
+role_user:
+  name: User
+  description: user role
+ 
+role_editor:
+  name: Editor
+  description: editor role
+ 
+role_admin:
+  name: Admin
+  description: admin role

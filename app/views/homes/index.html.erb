@@ -1,0 +1,31 @@
+<h1>List of Article based on category</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category Name</th>
+      <th>Article Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @articles.each do |category, articles| %>
+      <tr>
+        <td><%= category %></td>
+        <td>
+          <ul>
+            <% articles.first(3).each do |article| %>
+              <li><%= article.title %></li>
+            <% end %>
+        </ul>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+  
+</table>
+
+<br>
+
+<%#= link_to 'Article List', articles_path %>
+
+
